@@ -45,14 +45,6 @@ const FrontendPage = () => {
     setSelectedMovie(movie);
 
     try {
-      // const url = `https://api.themoviedb.org/3/movie/${movie.id}`
-      // const headers = {
-      //   Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMWM0YjQ3OWE4NzZkNjc4YWMxNDY0Njk2ZGEwZDI4NSIsInN1YiI6IjY0YjZlNGFmYWM0MTYxMDEzOTFkNTZlOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.mhQEpfk_lpib1ZT2NcwqsLAb5p0OnzbpEkg41cT7YwE'
-      // };
-
-      // const response = await axios.get(url, { headers });
-
-
       setMovieDetails(movie);
       setShowDetails(true);
     } catch (error) {
