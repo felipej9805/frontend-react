@@ -21,7 +21,7 @@ const FrontendPage = () => {
         language: "es"
       };
       const headers = {
-        Authorization: ''
+        Authorization: process.env.REACT_APP_API_KEY
       };
 
       const response = await axios.get(url, { params, headers });
